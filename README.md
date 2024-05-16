@@ -50,15 +50,7 @@ Welcome to Transaction Management System, a robust solution for handling credit 
     mvn clean install
     ```
 
-3. **Start MySQL Server**:
-
-    Ensure MySQL server is running and accessible. If using Docker, you can start a MySQL container with:
-
-    ```bash
-    docker run -d --name mysql-server -e MYSQL_ROOT_PASSWORD=rootpassword -p 3306:3306 mysql:latest
-    ```
-
-4. **Start the Application**:
+3. **Start the Application**:
 
     Use Docker Compose to start the application along with MySQL database:
 
@@ -66,7 +58,7 @@ Welcome to Transaction Management System, a robust solution for handling credit 
     MYSQL_DATABASE=mydatabase MYSQL_PASSWORD=rootpassword docker-compose up
     ```
 
-5. **Access the Application**:
+4. **Access the Application**:
 
     Once the setup is successful, access the following URLs in any web browser:
 
